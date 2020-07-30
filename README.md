@@ -3,4 +3,4 @@ The project was styled used [Tailwind framework](https://tailwindcss.com/) and [
 
 The website is hosted using [github pages](https://create-react-app.dev/docs/deployment/#github-pages).
 
-This project was mainly to familiarise myself with React and HTML/CSS\
+This project was mainly to familiarise myself with React and HTML/CSS
