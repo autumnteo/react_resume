@@ -1,0 +1,271 @@
+*{
+  padding:0;
+  margin:0;
+}
+
+.terminal-prompt::before {
+  color: #fff;
+  content: "> ";
+}
+.terminal-prompt {
+  color: var(--primary-color);
+}
+.landing-text::after,
+.terminal-prompt::after {
+  content: "";
+  -webkit-animation: cursor 0.8s infinite;
+  animation: cursor 0.8s infinite;
+  background: var(--primary-color);
+  border-radius: 0;
+  display: inline-block;
+  height: 1em;
+  margin-left: 0.2em;
+  width: 3px;
+  bottom: -2px;
+  position: relative;
+}
+
+@keyframes cursor {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+a {
+  cursor: pointer;
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+a:hover {
+  padding: 1px;
+  background-color: var(--primary-color);
+  color: var(--font-color);
+}
+
+
+.navbar__link--active {
+  border-bottom: 1px solid var(--primary-color);
+  padding-bottom: 0.25rem;
+}
+
+.terminal-prompt:hover {
+  color: var(--font-color);
+}
+
+
+.code, .proj-card {
+  background-color: var(--code-bg-color);
+}
+
+.code::after,
+.code::before {
+  content: "```";
+  display: inline;
+}
+
+
+
+
+/* ################################################### PROGRESS BAR => which is for SKILSS ############################################ */
+
+.progress-bar {
+  height: 8px;
+  background-color: var(--progress-bar-background);
+  margin: 12px 0;
+}
+
+.progress-bar.progress-bar-show-percent {
+  margin-top: 38px;
+}
+
+.progress-bar-filled {
+  margin-top: -35px;
+  background-color: var(--primary-color);
+  height: 100%;
+  transition: width 1s ease;
+  transition-delay: 0.3s;
+  position: relative;
+  width: 0;
+}
+
+.progress-bar-filled::before {
+  content: "";
+  border: 6px solid transparent;
+  border-top-color: var(--primary-color);
+  position: absolute;
+  top: -12px;
+  right: -6px;
+}
+
+.progress-bar-filled::after {
+  color: var(--primary-color);
+  content: attr(data-filled);
+  display: block;
+  font-size: 12px;
+  white-space: nowrap;
+  position: absolute;
+  border: 6px solid transparent;
+  top: -38px;
+  right: 0;
+  -ms-transform: translateX(50%);
+  transform: translateX(50%);
+}
+
+
+
+
+/* ################################################### TIMELINE => which is for EDUCATION ############################################# */
+
+.terminal-timeline {
+  position: relative;
+  padding-left: 70px;
+}
+
+.terminal-timeline::before {
+  content: " ";
+  background: var(--secondary-color);
+  display: inline-block;
+  position: absolute;
+  left: 35px;
+  width: 2px;
+  height: 100%;
+  z-index: 400;
+}
+
+.terminal-timeline .terminal-card {
+  margin-bottom: 25px;
+}
+
+.terminal-timeline .terminal-card::before {
+  content: " ";
+  background: var(--invert-font-color);
+  border: 2px solid var(--secondary-color);
+  display: inline-block;
+  position: absolute;
+  margin-top: 25px;
+  left: 28px;
+  width: 15px;
+  height: 15px;
+  z-index: 400;
+}
+
+.terminal-card {
+  border: 1px solid var(--secondary-color);
+}
+
+.terminal-card > header {
+  color: var(--font-color);
+  text-align: center;
+  background-color: var(--secondary-color);
+}
+
+.terminal-card > div:first-of-type {
+  padding: 0.3em var(--global-space);
+}
+.terminal-card > div {
+  padding: 0em var(--global-space);
+}
+
+/* ##################################################### FORM GROUP => WHICH IS EXPERIENCE ########################################### */
+
+fieldset {
+  display: block;
+  margin-inline-start: 2px;
+  margin-inline-end: 2px;
+  padding-block-start: 0.35em;
+  padding-inline-start: 0.75em;
+  padding-inline-end: 0.75em;
+  padding-block-end: 0.625em;
+  min-inline-size: min-content;
+  border-width: 2px;
+  border-style: groove;
+  border-color: white;
+  border-image: initial;
+}
+
+legend {
+  box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+  padding-inline-start: 2px;
+  padding-inline-end: 2px;
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
+}
+
+.form-group {
+  margin-bottom: var(--global-line-height);
+  overflow: auto;
+  display: block;
+  box-sizing: border-box;
+  text-rendering: geometricPrecision;
+}
+
+label {
+  font-size: 1em;
+  color: var(--invert-font-color);
+  box-sizing: border-box;
+  text-rendering: geometricPrecision;
+}
+
+.textarea {
+  height: auto;
+  width: 100%;
+  resize: none;
+  border: 1px solid var(--invert-font-color);
+  padding: 0.5em;
+  font-size: 1em;
+  font-family: var(--font-stack);
+  -webkit-appearance: none;
+  border-radius: 0;
+  color: var(--invert-font-color);
+  background-color: var(--background-color);
+  box-sizing: border-box;
+  text-rendering: geometricPrecision;
+}
+
+/* ##################################################### PROJECT GRID => WHICH IS PROJECTS ######################################### */
+
+.proj-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  /* border: solid white 1px; */
+  justify-items: center;
+  padding: 1rem 0;
+  gap: 4em 2em;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  justify-items: center;
+  padding: 1rem 0;
+}
+
+
+/* ################### change the default scrollbar ######################## */
+body::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: #222225;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+}

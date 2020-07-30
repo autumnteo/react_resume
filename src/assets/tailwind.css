@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  background-color: #222225;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
+          DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace,
+          serif;
+  margin: 0;
+  --invert-font-color: #fff;
+  --primary-color: #62c4ff;
+  --secondary-color: #a3abba;
+  --font-color: #151515;
+  --code-bg-color: #3f3f44;
+  --progress-bar-background: #727578;
+  --progress-bar-fill: #151515;
+  --global-space: 10px;
+}
+
+*::-moz-selection {
+  background: var(--primary-color);
+  color: var(--invert-font-color);
+}
+
+*::selection {
+  background: var(--primary-color);
+  color: var(--invert-font-color);
+}
+
