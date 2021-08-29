@@ -49,6 +49,22 @@ class Project extends Component {
         </Fade>
         <div className="proj-grid">
           <CardProject
+            title={"Age Predictor"}
+            description={"A Machine Learning model that predicts age based on Voice data"}
+            link={"https://github.com/autumnteo/age_predictor"}
+            image={process.env.PUBLIC_URL + "images/voice.jpg"}
+            imgText={"voice clipart"}
+          />
+
+          <CardProject
+            title={"Bidding System"}
+            description={"A Bidding System that was built with Java based on a microservice architecture"}
+            link={"https://github.com/autumnteo/bidding_system"}
+            image={process.env.PUBLIC_URL + "images/bid.jpg"}
+            imgText={"bidding"}
+          />
+
+          <CardProject
             title={"React Resume"}
             description={"The backend code for my personal website"}
             link={"https://github.com/autumnteo/react_resume"}
@@ -60,9 +76,7 @@ class Project extends Component {
             description={
               "School Data Mining Project which predicts the win rate of Dota2 matches "
             }
-            link={
-              "https://github.com/autumnteo/dota_data_mining"
-            }
+            link={"https://github.com/autumnteo/dota_data_mining"}
             image={process.env.PUBLIC_URL + "images/dota.png"}
             imgText={"dota2 logo"}
           />
@@ -84,15 +98,6 @@ class Project extends Component {
             link={"https://github.com/autumnteo/rock_paper_scissors"}
             image={process.env.PUBLIC_URL + "images/rock.png"}
             imgText={"rock paper scissors image"}
-          />
-          <CardProject
-            title={"Flash Cards"}
-            description={
-              "A simple Flash Card web application built using React"
-            }
-            link={"https://github.com/autumnteo/flashcard"}
-            image={process.env.PUBLIC_URL + "images/flashcard.jpg"}
-            imgText={"flashcard"}
           />
         </div>
       </div>

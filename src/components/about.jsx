@@ -38,7 +38,7 @@ class About extends Component {
                 alt="Alternate Pic"
               />
               <p className="text-4xl font-bold text-primary">Autumn Teo</p>
-              <p> Undergraduate | Tech Enthusiast | Aspirations Scholar </p>
+              <p> Masters | Undergraduate | Aspirations Scholar </p>
               <div className="mt-4">
                 <SocialIcons
                   link={"https://github.com/autumnteo"}
@@ -47,7 +47,7 @@ class About extends Component {
                   text={"Check out my Github!"}
                 />
                 <SocialIcons
-                  link={"https://www.linkedin.com/in/autumn-teo-5b0165173/"}
+                  link={"https://www.linkedin.com/in/autumnteo/"}
                   dataFor={"linkedin"}
                   icon={["fab", "linkedin"]}
                   text={"View my Linkedin!"}
@@ -56,7 +56,7 @@ class About extends Component {
                   link={process.env.PUBLIC_URL + "resume/Autumn_Resume.pdf"}
                   dataFor={"cv"}
                   icon={faFileAlt}
-                  text={"Check out my CV!"}
+                  text={"See my CV!"}
                 />
               </div>
             </Zoom>
@@ -66,23 +66,22 @@ class About extends Component {
           <Fade>
             <p className="text-4xl text-primary font-bold sm:pt-2">ABOUT</p>
             <div className="text-base code py-2 px-4">
-              <p>
+              {/* <p>
                 Hello{" "}
                 <span role="img" aria-label="hand wave">
                   👋
                 </span>{" "}
-                I'm Autumn Teo - An aspiring Data Scientist!
-              </p>
+                I'm Autumn!
+              </p> */}
               <p>
-                I'm currently a third year Information Systems studying in SMU
-                with a GPA of 4.00. Throughout my undergraduate studies, i have
-                also been involved in research projects as well as been a
-                teaching assistant for numerous modules.
+                A highly driven problem-solver who is keen to build scalable,
+                quality software, and using data for good
               </p>
+              <br></br>
               <p>
-                In my free time, i like to explore and learn different
-                technologies. I learnt how to use React on my own and used it to
-                built my website and i've also made it mobile-responsive!
+                I am currently a final year Information Systems Student at SMU.
+                Oh! I'm also currently in the midst of completing a Masters of
+                Science in Computing as well.
               </p>
             </div>
 
@@ -102,12 +101,12 @@ class About extends Component {
               <div className="col-span-9 text-gray-100 mb-3 underline sm:col-span-6 sm:mb-0">
                 <a href="tel:+6582281434">+65 82281434</a>
               </div>
-              <div className="col-span-9 text-gray-500 text-xl sm:col-span-5 sm:text-gray-100 sm:text-lg">
+              {/* <div className="col-span-9 text-gray-500 text-xl sm:col-span-5 sm:text-gray-100 sm:text-lg">
                 Availability:
               </div>
               <div className="col-span-9 text-gray-100 mb-3 sm:col-span-6 sm:mb-0">
                 3<sup>rd</sup> May 2021 - 6<sup>th</sup> August 2021
-              </div>
+              </div> */}
             </div>
           </Fade>
         </div>

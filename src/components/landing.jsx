@@ -52,9 +52,9 @@ class Landing extends Component {
                 I'm a
                 <Typical
                   steps={[
-                    "SMU Information Systems Undegrad 🎓",
+                    "SMU Masters Student 📚",
                     1000,
-                    "SMU Aspirations Scholar 📚",
+                    "SMU Information Systems Undegrad 🎓",
                     1000,
                     "Tech Enthusiast 💻",
                     1000,
@@ -73,7 +73,7 @@ class Landing extends Component {
               text={"Check out my Github!"}
             />
             <SocialIcons
-              link={"https://www.linkedin.com/in/autumn-teo-5b0165173/"}
+              link={"https://www.linkedin.com/in/autumnteo/"}
               dataFor={"linkedin"}
               icon={["fab", "linkedin"]}
               text={"View my Linkedin!"}
@@ -83,7 +83,7 @@ class Landing extends Component {
               dataFor={"cv"}
               icon={faFileAlt}
               // icon={["fas", "fileAlt"]}
-              text={"Check out my CV!"}
+              text={"See my CV!"}
             />
 
             {/* <a
