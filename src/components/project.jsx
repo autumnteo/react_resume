@@ -49,7 +49,7 @@ class Project extends Component {
         </Fade>
         <div className="proj-grid">
           <CardProject
-            title={"Age Predictor"}
+            title={"Guess the Age!"}
             description={"A Machine Learning model that predicts age based on Voice data"}
             link={"https://github.com/autumnteo/age_predictor"}
             image={process.env.PUBLIC_URL + "images/voice.jpg"}
@@ -65,7 +65,7 @@ class Project extends Component {
           />
 
           <CardProject
-            title={"React Resume"}
+            title={"React Resume Website"}
             description={"The backend code for my personal website"}
             link={"https://github.com/autumnteo/react_resume"}
             image={process.env.PUBLIC_URL + "images/website.png"}

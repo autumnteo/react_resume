@@ -64,7 +64,7 @@ class About extends Component {
         </div>
         <div className="text-left py-0 mt-2 my-0 flex-66 sm:pl-10 sm:ml-2">
           <Fade>
-            <p className="text-4xl text-primary font-bold sm:pt-2">ABOUT</p>
+            <p className="text-4xl text-primary font-bold sm:pt-2">ABOUT ME</p>
             <div className="text-base code py-2 px-4">
               {/* <p>
                 Hello{" "}
@@ -85,8 +85,8 @@ class About extends Component {
               </p>
             </div>
 
-            <p className="text-3xl text-primary font-bold pt-4 mt-4 sm:mt-0">
-              CONTACT INFORMATION
+            <p className="text-4xl text-primary font-bold pt-4 mt-4 sm:mt-0">
+              LETS CONNECT!
             </p>
             <div className="grid grid-cols-11 col-gap-8 row-gap-0 align-middle text-base md:text-lg sm:row-gap-2">
               <div className="col-span-9 text-gray-500 text-xl min-w-0 sm:col-span-5 sm:text-gray-100 sm:text-lg">
