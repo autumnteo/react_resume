@@ -14,7 +14,10 @@ function WorkExperiences(props) {
           <p className='text-xl'> <FontAwesomeIcon icon={faUserCircle}/>  {props.title}</p>
           <p className="text-secondary pb-2 "> <span className="text-xl"><FontAwesomeIcon icon={faClock}/> </span> {props.duration}</p>
         </div>
-        <p className="textarea mb-10"> {props.description} <br/> {props.description1} <br/> {props.description2} </p>
+        {props.description1 ? 
+        <p className="textarea mb-10"> {props.description} <br/> {props.description1} <br/> {props.description2} </p> : 
+        <p className="textarea mb-10"> {props.description} </p>  } 
+        
       </Fade>
     </div>
   );
@@ -31,7 +34,7 @@ class Experience extends Component {
         </Fade>
         <form action="/" className="px-4">
           <fieldset disabled>
-            <legend className="text-2xl text-white px-2">
+            <legend className="text-3xl text-white px-2">
               Work Experiences
             </legend>
             <WorkExperiences
