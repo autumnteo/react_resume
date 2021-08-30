@@ -85,8 +85,8 @@ class About extends Component {
               </p>
             </div>
 
-            <p className="text-4xl text-primary font-bold pt-4 mt-4 sm:mt-0">
-              BASIC INFORMATION
+            <p className="text-3xl text-primary font-bold pt-4 mt-4 sm:mt-0">
+              CONTACT INFORMATION
             </p>
             <div className="grid grid-cols-11 col-gap-8 row-gap-0 align-middle text-base md:text-lg sm:row-gap-2">
               <div className="col-span-9 text-gray-500 text-xl min-w-0 sm:col-span-5 sm:text-gray-100 sm:text-lg">

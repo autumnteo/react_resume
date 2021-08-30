@@ -29,7 +29,7 @@ class Skills extends Component {
       <div className="h-full pl-32 sm:pt-12 sm:pl-0">
         <Fade>
           <div className="text-center text-primary text-4xl font-bold pb-6 pt-4 sm:pt-6">
-            Skills
+            SKILLS
           </div>
         </Fade>
         <div className="w5/6 text-white mx-6 flex flex-col sm:flex-row ">

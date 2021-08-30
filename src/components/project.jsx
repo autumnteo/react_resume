@@ -45,7 +45,7 @@ class Project extends Component {
     return (
       <div className="w-5/6 mx-auto text-center text-primary pl-32 sm:pt-16 sm:pl-0">
         <Fade>
-          <p className="text-4xl pt-4 font-bold sm:pt-0">Projects</p>
+          <p className="text-4xl pt-4 font-bold sm:pt-0">PROJECTS</p>
         </Fade>
         <div className="proj-grid">
           <CardProject

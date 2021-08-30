@@ -1,0 +1,4 @@
+to make changes:
+1) make changes here (npm run start)
+2) copy entire folder to autumnteo.github.io folder
+3) in autumn.github.io folder, run npm run deploy

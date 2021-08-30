@@ -27,7 +27,7 @@ class Education extends Component {
     return (
       <div className="w-5/6 max-w-2xl h-full  mx-auto text-center text-primary pl-32 sm:pt-16 sm:pl-0">
         <Fade>
-          <p className="text-4xl mb-4 pt-4 font-bold sm:pt-0">Education</p>
+          <p className="text-4xl mb-4 pt-4 font-bold sm:pt-0">EDUCATION</p>
         </Fade>
         <div class="terminal-timeline">
           <EducationComponent

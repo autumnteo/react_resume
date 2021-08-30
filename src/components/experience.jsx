@@ -29,7 +29,7 @@ class Experience extends Component {
       <div className="w-5/6 mx-auto mb-6 text-white pl-32 sm:pt-16 sm:pl-0">
         <Fade>
           <p className="text-4xl text-primary text-center font-bold pt-4 sm:pt-0">
-            Experience
+            EXPERIENCE
           </p>
         </Fade>
         <form action="/" className="px-4">
